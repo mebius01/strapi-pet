@@ -20,16 +20,17 @@
       "type": "richtext",
       "required": true
     },
-    "user_id": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "plugin::users-permissions.user"
-    },
     "tags_id": {
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::tag.tag",
       "mappedBy": "article_id"
+    },
+    "user": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "plugin::users-permissions.user",
+      "inversedBy": "articles"
     }
   }
 }

@@ -121,7 +121,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"data\": {\n        \"name\":\"test\",\n        \"body\":\"lorem text dknfqklewrng'klqerng'klewnbewklnbe\"\n    }\n}",
+							"raw": "{\n    \"data\": {\n        \"name\": \"test\",\n        \"body\": \"lorem text dknfqklewrng'klqerng'klewnbewklnbe\"\n    }\n}",
 							"options": {
 								"raw": {
 									"language": "json"
